@@ -9,7 +9,7 @@ export async function GET(request: NextRequest) {
     try {
         const response = NextResponse.json(
             {
-                message: "Sign out succesfully!. By have a great time",
+                message: "Sign out succesfully!. Bye have a great time",
                 success: true
             }
         )
